@@ -1,0 +1,18 @@
+/*
+* use: 所有页面的基础通用样式
+* author: YM
+* date: 2013-8-18
+* 
+*/
+
+body, textarea, select, input, button {
+    font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+
+.letter_space2{
+	letter-spacing: 14px;
+	padding-left: 14px;
+}
+.letter_space3{
+	letter-spacing: 4px;
+}

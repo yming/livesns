@@ -1,0 +1,82 @@
+/*
+* use: 登陆页面样式
+* author: YM
+* date: 2013-8-18
+* 
+*/
+
+
+@gery_text_color: #888888;
+
+body{
+	/*overflow: hidden;*/
+
+}
+
+.container-fluid{
+	padding: 0;
+	background-image: url("http://imgcdn.ph.126.net/RU5gZ3MMTxA3Xqz7OlqvRQ==/3129438791169103886.jpg")
+}
+
+/*首屏登陆注册操作区域*/
+.login_area{
+	height: 100%;
+	margin-top: 200px;
+
+	/**/
+	.title_box{
+		height: 150px;
+
+		h1{
+			font-size: 70px;
+			color: #FFFFFF;
+			line-height: 70px;
+			text-align: center;
+		}
+	}
+
+	.login_bar{
+		.btn{
+			font-size: 20px;
+			letter-spacing: 20px;
+			padding-left: 30px;
+		}
+	}
+
+	.login_box, .register_box{
+		background-color: #ffffff;
+		height: 200px;
+		margin-top: 20px;
+		padding: 50px 0;
+		.log_site{
+			.textInput{
+				line-height: 20px;
+				font-size: 14px;
+				height: 30px;
+			}
+			/*验证码*/
+			.regcode_box{
+				.textInput{
+					width: 150px;
+				}
+				.code_btn{
+					display: inline-block;
+					width: 40px;
+					height: 30px;
+					margin-left: 10px;
+				}
+			}
+			.remPw{
+				display: inline-block;
+				font-size: 13px;
+				color: @gery_text_color;
+			}
+			.forgetPw{
+				float: right;
+				padding-top: 5px;
+				margin-right: 40px;
+				color: @gery_text_color;
+			}
+		}
+	}
+}
